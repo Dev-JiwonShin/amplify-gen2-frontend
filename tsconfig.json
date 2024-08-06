@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "paths": {
+      "@/data-schema": ["../amplify-gen2-backend/amplify/data/resource"]
+    },
     "target": "es5",
     "lib": [
       "dom",
